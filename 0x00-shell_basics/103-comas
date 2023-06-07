@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -pd * | sed '/^\.\.$/d' | sort -k1.1d -k1.2 | tr '\n' ','; echo
