@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name "*.html" -newermt $(date -r .. +%Y-%m-%d) -exec cp {} .. \
+shopt -s dotglob; for file in ./*.html; do cp -u "$file" ..
