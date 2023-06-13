@@ -1,3 +1,2 @@
 #!/bin/bash
 echo "$(tr 'A-Za-z' 'N-ZA-Mn-za-m' < quote)" | tr 'N-ZA-Mn-za-m' 'A-Za-z'
-
